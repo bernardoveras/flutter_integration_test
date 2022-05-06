@@ -1,9 +1,9 @@
 ## Testes
 
-We use 3 forms of tests, Unit, Widget and Integration.
+Utilizamos 3 formas de testes, Unit, Widget e Integration.
 
 ### Unit Test
-We will use unit tests to validate all business rules (purely dart codes).
+Utilizaremos os testes de unidades para validar tudo que é regra de negocio (códigos puramente dart).
 
 ```dart
 test('Increment one on Counter', () async {
@@ -13,7 +13,7 @@ test('Increment one on Counter', () async {
 });
 ```
 ### Widget Test
-We use Widget tests to validate that our pages are rendering as expected.
+Utilizaremos os testes de Widget para validar se nossas Pages estão renderizando conforme o esperado.
 
 ```dart
 testWidgets("Should find a single widget per view on screen rendering", (WidgetTester tester) async {
@@ -25,7 +25,7 @@ testWidgets("Should find a single widget per view on screen rendering", (WidgetT
 ```
 
 ### Integration Test
-We will use integration tests to ensure complete end-to-end operation.
+Utilizaremos os testes de integração para garantir um completo funcionamento end-to-end.
 
 ```dart
 import 'package:integration_test/integration_test_driver.dart';
@@ -51,7 +51,7 @@ void main() {
 }
 ```
 
-Useful links
+Links úteis
 
 - [Flutter Test](https://flutter.dev/docs/testing)
 - [Integration Test](https://flutter.dev/docs/cookbook/testing/integration/introduction)
