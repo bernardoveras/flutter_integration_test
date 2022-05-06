@@ -1,4 +1,4 @@
-## Testes
+## Tests
 
 We use 3 forms of tests, Unit, Widget and Integration.
 
